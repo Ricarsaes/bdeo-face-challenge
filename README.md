@@ -313,7 +313,3 @@ The multitask model is trained to optimize:
 - Experiment with different loss weights in `config.py`
 - Add data augmentation techniques in `data_loader_flip.py`
 - Try different architectures in `model_pytorch.py`
-
-## License
-
-This project is developed for the BDEO Face Challenge. Please refer to the challenge guidelines for usage restrictions and licensing information.
