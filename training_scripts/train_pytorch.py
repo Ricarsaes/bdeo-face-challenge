@@ -10,7 +10,8 @@ from config import DEVICE, EPOCHS, LEARNING_RATE, MAX_AGE
 from data_loader_flip import get_data_loaders
 from model_pytorch import FaceMultitaskModel
 
-
+# TODO - fix env variables for multi-threading issues
+# I was getting errors related to the number of threads being used
 NUM_THREADS = "1"
 os.environ["OMP_NUM_THREADS"] = NUM_THREADS
 os.environ["MKL_NUM_THREADS"] = NUM_THREADS  # If MKL might be used by NumPy/SciPy
