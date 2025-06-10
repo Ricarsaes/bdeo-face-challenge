@@ -1,0 +1,21 @@
+# requirements.txt
+
+# --- Core Web & ML Frameworks ---
+gradio==5.33.0
+fastapi==0.115.12
+pydantic
+
+# --- Machine Learning & Computer Vision ---
+torch
+torchvision
+
+# --- Data Handling & Scientific Computing ---
+numpy
+pandas
+Pillow
+scikit_learn
+
+# --- Utilities ---
+tqdm
+python-multipart
+uvicorn
