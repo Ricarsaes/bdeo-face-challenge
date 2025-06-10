@@ -1,5 +1,9 @@
 # data_loader_flip.py
-
+"""
+PyTorch data loader for face attribute prediction with horizontal 
+flip augmentation, handling age regression, gender classification, 
+and eye coordinate detection from facial images.
+"""
 import os
 import random
 

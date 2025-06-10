@@ -1,4 +1,9 @@
 # model_pytorch.py
+"""
+Defines a multi-task PyTorch neural network model for face attribute prediction
+using MobileNetV2 as the backbone. The model simultaneously predicts age (regression),
+gender (binary classification), and eye coordinates (regression) from face images.
+"""
 import torch
 from torch import nn
 from torchvision import models

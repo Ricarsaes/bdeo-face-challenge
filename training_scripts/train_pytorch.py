@@ -1,4 +1,8 @@
 # train_pytorch.py
+"""
+Trains a multi-task PyTorch model to predict age, gender, and eye coordinates
+from face images using MobileNetV2 as the backbone architecture.
+"""
 import os
 
 import torch
