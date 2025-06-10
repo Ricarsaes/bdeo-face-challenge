@@ -4,7 +4,7 @@
 
 This repository implements a comprehensive face attribute prediction system that uses deep learning to analyze facial images and predict age, gender, and eye coordinates. The system provides both a RESTful API for programmatic access and an interactive Gradio web interface for user-friendly interaction, making it suitable for both developers and end-users who need facial analysis capabilities.
 
-The system is built using PyTorch with a MobileNetV2 backbone for efficient inference, FastAPI for robust API services, and includes complete training pipelines for model development.
+The system is built using PyTorch with a [MobileNetV2](https://arxiv.org/abs/1801.04381) backbone for efficient inference, FastAPI for robust API services, and includes complete training pipelines for model development.
 
 ## Architecture Overview
 
